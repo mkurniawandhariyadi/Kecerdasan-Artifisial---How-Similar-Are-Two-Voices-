@@ -1,0 +1,153 @@
+{
+  "seed": 42,
+  "sample_rate": 16000,
+  "trim_top_db": 15,
+  "n_mfcc": 13,
+  "mfcc_statistics": [
+    "mean",
+    "std"
+  ],
+  "mfcc_feature_dim": 24,
+  "mfcc_transform": {
+    "drop_c0": true,
+    "fit_split": "train",
+    "scaler": "StandardScaler",
+    "mean": [
+      124.4132490158081,
+      11.349435595329851,
+      22.317567252554,
+      -2.7276424276351463,
+      2.4893403277383186,
+      -12.517410352360457,
+      -15.959195327013731,
+      -6.810390152473701,
+      -7.768406712973956,
+      -2.5146820508525707,
+      -5.6572789929341525,
+      -7.684497156180441,
+      42.61941832304001,
+      27.776366725564003,
+      26.15687957406044,
+      16.553520515561104,
+      14.44855411350727,
+      14.262508988380432,
+      14.903960153460503,
+      12.79460047185421,
+      12.063239298760891,
+      9.92794206738472,
+      9.031384639441967,
+      8.59867987781763
+    ],
+    "scale": [
+      17.78272844155409,
+      10.610224198581124,
+      10.797001242158057,
+      16.270155069076417,
+      9.323303206022816,
+      7.148215610561158,
+      11.910202121644655,
+      9.168305027989414,
+      7.875608675614844,
+      7.049289258937123,
+      3.66814730302931,
+      4.787638614843269,
+      5.5335328890586135,
+      5.731822203792576,
+      4.149822305022003,
+      3.57598441399792,
+      2.197486309891788,
+      2.0037288912023548,
+      2.8749368288934907,
+      1.7189500973908634,
+      2.265431786481591,
+      1.632142354808804,
+      1.5658682108983217,
+      1.7600062657075353
+    ]
+  },
+  "bundle_format": 3,
+  "dataset_status": "session_protocol",
+  "split_protocol": "same-day sessions: A + legacy L=train, B=validation, C=test near, D=stress far; new scripts 01-08/09-16/17-24/25-32; known speakers; legacy script overlap unverified",
+  "requested_split_ratios": null,
+  "actual_split_counts": {
+    "train": 64,
+    "validation": 32,
+    "test": 32,
+    "stress": 32
+  },
+  "model_source": "speechbrain/spkrec-ecapa-voxceleb",
+  "pretrained_file_sha256": {
+    "mean_var_norm_emb.ckpt": "cd70225b05b37be64fc5a95e24395d804231d43f74b2e1e5a513db7b69b34c33",
+    "hyperparams.yaml": "6f78854fa04ba59e761437b76a2575d3aba5e5016de3e9b69f0c9a5077fb1a41",
+    "embedding_model.ckpt": "0575cb64845e6b9a10db9bcb74d5ac32b326b8dc90352671d345e2ee3d0126a2",
+    "classifier.ckpt": "fd9e3634fe68bd0a427c95e354c0c677374f62b3f434e45b78599950d860d535",
+    "label_encoder.ckpt": "e13c3a167bb4112685670ee896d20e2b565af16b3a4ceeaa8689fa4d22adb8b9"
+  },
+  "thresholds": {
+    "MFCC + Cosine": 0.4410503124398566,
+    "ECAPA Pretrained": 0.6989440984991275,
+    "ECAPA Fine-Tuned": 0.697691498402448
+  },
+  "fine_tuning": {
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-05,
+    "best_epoch": 10
+  },
+  "graph": {
+    "k_neighbors": 3,
+    "mst_bridges": false,
+    "mst_comparison_exported": true,
+    "exploratory_all_splits": true,
+    "source_node": "U01",
+    "target_node": "U08"
+  },
+  "noise_snr_db": [
+    20,
+    10,
+    0
+  ],
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "librosa": "0.11.0",
+    "soundfile": "0.14.0",
+    "scikit-learn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "torchaudio": "2.11.0+cu130",
+    "speechbrain": "1.1.2",
+    "networkx": "3.7",
+    "matplotlib": "3.10.0",
+    "seaborn": "0.13.2",
+    "tqdm": "4.67.3",
+    "silero-vad": "6.3",
+    "noisereduce": "3.0.3",
+    "gradio": "6.32.0"
+  },
+  "speaker_identification_demo": {
+    "reference_split": "train",
+    "threshold_split": "validation",
+    "aggregation": "mean of unit vectors, then unit normalization",
+    "threshold_objective": "F1 of validation query-template genuine/impostor trials",
+    "thresholds": {
+      "MFCC + Cosine": 0.3431406361433298,
+      "ECAPA Pretrained": 0.6467454851813832,
+      "ECAPA Fine-Tuned": 0.6167338670793778
+    },
+    "window_seconds": 5,
+    "update_seconds": 1.0,
+    "speech_gate": {
+      "model": "silero-vad",
+      "threshold": 0.5,
+      "min_speech_ms": 150
+    },
+    "display_names": {
+      "Aldi": "Aldi",
+      "Faqih": "Faqih",
+      "Ilman": "Ilman",
+      "Iron": "Iron"
+    },
+    "unseen_speaker_rejection_validated": false
+  },
+  "export_complete": true
+}

@@ -1,0 +1,3603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="layout_weight" attr.type="double"/>
+<key id="d10" for="edge" attr.name="similarity" attr.type="double"/>
+<key id="d9" for="edge" attr.name="mst_bridge" attr.type="boolean"/>
+<key id="d8" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d7" for="node" attr.name="condition" attr.type="string"/>
+<key id="d6" for="node" attr.name="split" attr.type="string"/>
+<key id="d5" for="node" attr.name="session" attr.type="string"/>
+<key id="d4" for="node" attr.name="label" attr.type="string"/>
+<key id="d3" for="node" attr.name="filename" attr.type="string"/>
+<key id="d2" for="node" attr.name="speaker" attr.type="string"/>
+<key id="d1" for="node" attr.name="node_id" attr.type="string"/>
+<key id="d0" for="graph" attr.name="name" attr.type="string"/>
+<graph edgedefault="undirected"><data key="d0">k-NN + MST (pembanding)</data>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A1.m4a">
+  <data key="d1">U01</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">A1.m4a</data>
+  <data key="d4">Aldi/A1.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A2.m4a">
+  <data key="d1">U02</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">A2.m4a</data>
+  <data key="d4">Aldi/A2.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A3.m4a">
+  <data key="d1">U03</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">A3.m4a</data>
+  <data key="d4">Aldi/A3.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A4.m4a">
+  <data key="d1">U04</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">A4.m4a</data>
+  <data key="d4">Aldi/A4.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A5.m4a">
+  <data key="d1">U05</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">A5.m4a</data>
+  <data key="d4">Aldi/A5.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A6.m4a">
+  <data key="d1">U06</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">A6.m4a</data>
+  <data key="d4">Aldi/A6.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A7.m4a">
+  <data key="d1">U07</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">A7.m4a</data>
+  <data key="d4">Aldi/A7.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A8.m4a">
+  <data key="d1">U08</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">A8.m4a</data>
+  <data key="d4">Aldi/A8.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a">
+  <data key="d1">U09</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">B10.m4a</data>
+  <data key="d4">Aldi/B10.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B11.m4a">
+  <data key="d1">U10</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">B11.m4a</data>
+  <data key="d4">Aldi/B11.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B12.m4a">
+  <data key="d1">U11</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">B12.m4a</data>
+  <data key="d4">Aldi/B12.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B13.m4a">
+  <data key="d1">U12</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">B13.m4a</data>
+  <data key="d4">Aldi/B13.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B14.m4a">
+  <data key="d1">U13</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">B14.m4a</data>
+  <data key="d4">Aldi/B14.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B15.m4a">
+  <data key="d1">U14</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">B15.m4a</data>
+  <data key="d4">Aldi/B15.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B16.m4a">
+  <data key="d1">U15</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">B16.m4a</data>
+  <data key="d4">Aldi/B16.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B9.m4a">
+  <data key="d1">U16</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">B9.m4a</data>
+  <data key="d4">Aldi/B9.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C17.m4a">
+  <data key="d1">U17</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">C17.m4a</data>
+  <data key="d4">Aldi/C17.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C18.m4a">
+  <data key="d1">U18</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">C18.m4a</data>
+  <data key="d4">Aldi/C18.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C19.m4a">
+  <data key="d1">U19</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">C19.m4a</data>
+  <data key="d4">Aldi/C19.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C20.m4a">
+  <data key="d1">U20</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">C20.m4a</data>
+  <data key="d4">Aldi/C20.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C21.m4a">
+  <data key="d1">U21</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">C21.m4a</data>
+  <data key="d4">Aldi/C21.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C22.m4a">
+  <data key="d1">U22</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">C22.m4a</data>
+  <data key="d4">Aldi/C22.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C23.m4a">
+  <data key="d1">U23</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">C23.m4a</data>
+  <data key="d4">Aldi/C23.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C24.m4a">
+  <data key="d1">U24</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">C24.m4a</data>
+  <data key="d4">Aldi/C24.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D25.m4a">
+  <data key="d1">U25</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">D25.m4a</data>
+  <data key="d4">Aldi/D25.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D26.m4a">
+  <data key="d1">U26</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">D26.m4a</data>
+  <data key="d4">Aldi/D26.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D27.m4a">
+  <data key="d1">U27</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">D27.m4a</data>
+  <data key="d4">Aldi/D27.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D28.m4a">
+  <data key="d1">U28</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">D28.m4a</data>
+  <data key="d4">Aldi/D28.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a">
+  <data key="d1">U29</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">D29.m4a</data>
+  <data key="d4">Aldi/D29.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D30.m4a">
+  <data key="d1">U30</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">D30.m4a</data>
+  <data key="d4">Aldi/D30.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D31.m4a">
+  <data key="d1">U31</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">D31.m4a</data>
+  <data key="d4">Aldi/D31.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D32.m4a">
+  <data key="d1">U32</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">D32.m4a</data>
+  <data key="d4">Aldi/D32.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_1.m4a">
+  <data key="d1">U33</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">kalimat_1.m4a</data>
+  <data key="d4">Aldi/dekat/kalimat_1.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_2.m4a">
+  <data key="d1">U34</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">kalimat_2.m4a</data>
+  <data key="d4">Aldi/dekat/kalimat_2.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_3.m4a">
+  <data key="d1">U35</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">kalimat_3.m4a</data>
+  <data key="d4">Aldi/dekat/kalimat_3.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_4.m4a">
+  <data key="d1">U36</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">kalimat_4.m4a</data>
+  <data key="d4">Aldi/dekat/kalimat_4.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_1.m4a">
+  <data key="d1">U37</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">kalimat_1.m4a</data>
+  <data key="d4">Aldi/jauh/kalimat_1.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_2.m4a">
+  <data key="d1">U38</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">kalimat_2.m4a</data>
+  <data key="d4">Aldi/jauh/kalimat_2.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_3.m4a">
+  <data key="d1">U39</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">kalimat_3.m4a</data>
+  <data key="d4">Aldi/jauh/kalimat_3.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_4.m4a">
+  <data key="d1">U40</data>
+  <data key="d2">Aldi</data>
+  <data key="d3">kalimat_4.m4a</data>
+  <data key="d4">Aldi/jauh/kalimat_4.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A1.m4a">
+  <data key="d1">U41</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">A1.m4a</data>
+  <data key="d4">Faqih/A1.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A2.m4a">
+  <data key="d1">U42</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">A2.m4a</data>
+  <data key="d4">Faqih/A2.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A3.m4a">
+  <data key="d1">U43</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">A3.m4a</data>
+  <data key="d4">Faqih/A3.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A4.m4a">
+  <data key="d1">U44</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">A4.m4a</data>
+  <data key="d4">Faqih/A4.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A5.m4a">
+  <data key="d1">U45</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">A5.m4a</data>
+  <data key="d4">Faqih/A5.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A6.m4a">
+  <data key="d1">U46</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">A6.m4a</data>
+  <data key="d4">Faqih/A6.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A7.m4a">
+  <data key="d1">U47</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">A7.m4a</data>
+  <data key="d4">Faqih/A7.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A8.m4a">
+  <data key="d1">U48</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">A8.m4a</data>
+  <data key="d4">Faqih/A8.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B10.m4a">
+  <data key="d1">U49</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">B10.m4a</data>
+  <data key="d4">Faqih/B10.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B11.m4a">
+  <data key="d1">U50</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">B11.m4a</data>
+  <data key="d4">Faqih/B11.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B12.m4a">
+  <data key="d1">U51</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">B12.m4a</data>
+  <data key="d4">Faqih/B12.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B13.m4a">
+  <data key="d1">U52</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">B13.m4a</data>
+  <data key="d4">Faqih/B13.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B14.m4a">
+  <data key="d1">U53</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">B14.m4a</data>
+  <data key="d4">Faqih/B14.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B15.m4a">
+  <data key="d1">U54</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">B15.m4a</data>
+  <data key="d4">Faqih/B15.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B16.m4a">
+  <data key="d1">U55</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">B16.m4a</data>
+  <data key="d4">Faqih/B16.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B9.m4a">
+  <data key="d1">U56</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">B9.m4a</data>
+  <data key="d4">Faqih/B9.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C17.m4a">
+  <data key="d1">U57</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">C17.m4a</data>
+  <data key="d4">Faqih/C17.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C18.m4a">
+  <data key="d1">U58</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">C18.m4a</data>
+  <data key="d4">Faqih/C18.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C19.m4a">
+  <data key="d1">U59</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">C19.m4a</data>
+  <data key="d4">Faqih/C19.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C20.m4a">
+  <data key="d1">U60</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">C20.m4a</data>
+  <data key="d4">Faqih/C20.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C21.m4a">
+  <data key="d1">U61</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">C21.m4a</data>
+  <data key="d4">Faqih/C21.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C22.m4a">
+  <data key="d1">U62</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">C22.m4a</data>
+  <data key="d4">Faqih/C22.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C23.m4a">
+  <data key="d1">U63</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">C23.m4a</data>
+  <data key="d4">Faqih/C23.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C24.m4a">
+  <data key="d1">U64</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">C24.m4a</data>
+  <data key="d4">Faqih/C24.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D25.m4a">
+  <data key="d1">U65</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">D25.m4a</data>
+  <data key="d4">Faqih/D25.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D26.m4a">
+  <data key="d1">U66</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">D26.m4a</data>
+  <data key="d4">Faqih/D26.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D27.m4a">
+  <data key="d1">U67</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">D27.m4a</data>
+  <data key="d4">Faqih/D27.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D28.m4a">
+  <data key="d1">U68</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">D28.m4a</data>
+  <data key="d4">Faqih/D28.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D29.m4a">
+  <data key="d1">U69</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">D29.m4a</data>
+  <data key="d4">Faqih/D29.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D30.m4a">
+  <data key="d1">U70</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">D30.m4a</data>
+  <data key="d4">Faqih/D30.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D31.m4a">
+  <data key="d1">U71</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">D31.m4a</data>
+  <data key="d4">Faqih/D31.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D32.m4a">
+  <data key="d1">U72</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">D32.m4a</data>
+  <data key="d4">Faqih/D32.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_1.ogg">
+  <data key="d1">U73</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">kalimat_1.ogg</data>
+  <data key="d4">Faqih/dekat/kalimat_1.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_2.ogg">
+  <data key="d1">U74</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">kalimat_2.ogg</data>
+  <data key="d4">Faqih/dekat/kalimat_2.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_3.ogg">
+  <data key="d1">U75</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">kalimat_3.ogg</data>
+  <data key="d4">Faqih/dekat/kalimat_3.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_4.ogg">
+  <data key="d1">U76</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">kalimat_4.ogg</data>
+  <data key="d4">Faqih/dekat/kalimat_4.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_1.ogg">
+  <data key="d1">U77</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">kalimat_1.ogg</data>
+  <data key="d4">Faqih/jauh/kalimat_1.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_2.ogg">
+  <data key="d1">U78</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">kalimat_2.ogg</data>
+  <data key="d4">Faqih/jauh/kalimat_2.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_3.ogg">
+  <data key="d1">U79</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">kalimat_3.ogg</data>
+  <data key="d4">Faqih/jauh/kalimat_3.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_4.ogg">
+  <data key="d1">U80</data>
+  <data key="d2">Faqih</data>
+  <data key="d3">kalimat_4.ogg</data>
+  <data key="d4">Faqih/jauh/kalimat_4.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A1.m4a">
+  <data key="d1">U81</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">A1.m4a</data>
+  <data key="d4">Ilman/A1.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A2.m4a">
+  <data key="d1">U82</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">A2.m4a</data>
+  <data key="d4">Ilman/A2.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A3.m4a">
+  <data key="d1">U83</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">A3.m4a</data>
+  <data key="d4">Ilman/A3.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A4.m4a">
+  <data key="d1">U84</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">A4.m4a</data>
+  <data key="d4">Ilman/A4.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A5.m4a">
+  <data key="d1">U85</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">A5.m4a</data>
+  <data key="d4">Ilman/A5.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A6.m4a">
+  <data key="d1">U86</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">A6.m4a</data>
+  <data key="d4">Ilman/A6.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A7.m4a">
+  <data key="d1">U87</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">A7.m4a</data>
+  <data key="d4">Ilman/A7.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A8.m4a">
+  <data key="d1">U88</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">A8.m4a</data>
+  <data key="d4">Ilman/A8.m4a</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a">
+  <data key="d1">U89</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">B10.m4a</data>
+  <data key="d4">Ilman/B10.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B11.m4a">
+  <data key="d1">U90</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">B11.m4a</data>
+  <data key="d4">Ilman/B11.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B12.m4a">
+  <data key="d1">U91</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">B12.m4a</data>
+  <data key="d4">Ilman/B12.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B13.m4a">
+  <data key="d1">U92</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">B13.m4a</data>
+  <data key="d4">Ilman/B13.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B14.m4a">
+  <data key="d1">U93</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">B14.m4a</data>
+  <data key="d4">Ilman/B14.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a">
+  <data key="d1">U94</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">B15.m4a</data>
+  <data key="d4">Ilman/B15.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B16.m4a">
+  <data key="d1">U95</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">B16.m4a</data>
+  <data key="d4">Ilman/B16.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B9.m4a">
+  <data key="d1">U96</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">B9.m4a</data>
+  <data key="d4">Ilman/B9.m4a</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C17.m4a">
+  <data key="d1">U97</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">C17.m4a</data>
+  <data key="d4">Ilman/C17.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C18.m4a">
+  <data key="d1">U98</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">C18.m4a</data>
+  <data key="d4">Ilman/C18.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C19.m4a">
+  <data key="d1">U99</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">C19.m4a</data>
+  <data key="d4">Ilman/C19.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C20.m4a">
+  <data key="d1">U100</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">C20.m4a</data>
+  <data key="d4">Ilman/C20.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a">
+  <data key="d1">U101</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">C21.m4a</data>
+  <data key="d4">Ilman/C21.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C22.m4a">
+  <data key="d1">U102</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">C22.m4a</data>
+  <data key="d4">Ilman/C22.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C23.m4a">
+  <data key="d1">U103</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">C23.m4a</data>
+  <data key="d4">Ilman/C23.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C24.m4a">
+  <data key="d1">U104</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">C24.m4a</data>
+  <data key="d4">Ilman/C24.m4a</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D25.m4a">
+  <data key="d1">U105</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">D25.m4a</data>
+  <data key="d4">Ilman/D25.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D26.m4a">
+  <data key="d1">U106</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">D26.m4a</data>
+  <data key="d4">Ilman/D26.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D27.m4a">
+  <data key="d1">U107</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">D27.m4a</data>
+  <data key="d4">Ilman/D27.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D28.m4a">
+  <data key="d1">U108</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">D28.m4a</data>
+  <data key="d4">Ilman/D28.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D29.m4a">
+  <data key="d1">U109</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">D29.m4a</data>
+  <data key="d4">Ilman/D29.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D30.m4a">
+  <data key="d1">U110</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">D30.m4a</data>
+  <data key="d4">Ilman/D30.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D31.m4a">
+  <data key="d1">U111</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">D31.m4a</data>
+  <data key="d4">Ilman/D31.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D32.m4a">
+  <data key="d1">U112</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">D32.m4a</data>
+  <data key="d4">Ilman/D32.m4a</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_1.m4a">
+  <data key="d1">U113</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">kalimat_1.m4a</data>
+  <data key="d4">Ilman/dekat/kalimat_1.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_2.m4a">
+  <data key="d1">U114</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">kalimat_2.m4a</data>
+  <data key="d4">Ilman/dekat/kalimat_2.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_3.m4a">
+  <data key="d1">U115</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">kalimat_3.m4a</data>
+  <data key="d4">Ilman/dekat/kalimat_3.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_4.m4a">
+  <data key="d1">U116</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">kalimat_4.m4a</data>
+  <data key="d4">Ilman/dekat/kalimat_4.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_1.m4a">
+  <data key="d1">U117</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">kalimat_1.m4a</data>
+  <data key="d4">Ilman/jauh/kalimat_1.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_2.m4a">
+  <data key="d1">U118</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">kalimat_2.m4a</data>
+  <data key="d4">Ilman/jauh/kalimat_2.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_3.m4a">
+  <data key="d1">U119</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">kalimat_3.m4a</data>
+  <data key="d4">Ilman/jauh/kalimat_3.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_4.m4a">
+  <data key="d1">U120</data>
+  <data key="d2">Ilman</data>
+  <data key="d3">kalimat_4.m4a</data>
+  <data key="d4">Ilman/jauh/kalimat_4.m4a</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A1.ogg">
+  <data key="d1">U121</data>
+  <data key="d2">Iron</data>
+  <data key="d3">A1.ogg</data>
+  <data key="d4">Iron/A1.ogg</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A2.ogg">
+  <data key="d1">U122</data>
+  <data key="d2">Iron</data>
+  <data key="d3">A2.ogg</data>
+  <data key="d4">Iron/A2.ogg</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A3.ogg">
+  <data key="d1">U123</data>
+  <data key="d2">Iron</data>
+  <data key="d3">A3.ogg</data>
+  <data key="d4">Iron/A3.ogg</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A4.ogg">
+  <data key="d1">U124</data>
+  <data key="d2">Iron</data>
+  <data key="d3">A4.ogg</data>
+  <data key="d4">Iron/A4.ogg</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A5.ogg">
+  <data key="d1">U125</data>
+  <data key="d2">Iron</data>
+  <data key="d3">A5.ogg</data>
+  <data key="d4">Iron/A5.ogg</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A6.ogg">
+  <data key="d1">U126</data>
+  <data key="d2">Iron</data>
+  <data key="d3">A6.ogg</data>
+  <data key="d4">Iron/A6.ogg</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A7.ogg">
+  <data key="d1">U127</data>
+  <data key="d2">Iron</data>
+  <data key="d3">A7.ogg</data>
+  <data key="d4">Iron/A7.ogg</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A8.ogg">
+  <data key="d1">U128</data>
+  <data key="d2">Iron</data>
+  <data key="d3">A8.ogg</data>
+  <data key="d4">Iron/A8.ogg</data>
+  <data key="d5">A</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B10.ogg">
+  <data key="d1">U129</data>
+  <data key="d2">Iron</data>
+  <data key="d3">B10.ogg</data>
+  <data key="d4">Iron/B10.ogg</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B11.ogg">
+  <data key="d1">U130</data>
+  <data key="d2">Iron</data>
+  <data key="d3">B11.ogg</data>
+  <data key="d4">Iron/B11.ogg</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B12.ogg">
+  <data key="d1">U131</data>
+  <data key="d2">Iron</data>
+  <data key="d3">B12.ogg</data>
+  <data key="d4">Iron/B12.ogg</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B13.ogg">
+  <data key="d1">U132</data>
+  <data key="d2">Iron</data>
+  <data key="d3">B13.ogg</data>
+  <data key="d4">Iron/B13.ogg</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B14.ogg">
+  <data key="d1">U133</data>
+  <data key="d2">Iron</data>
+  <data key="d3">B14.ogg</data>
+  <data key="d4">Iron/B14.ogg</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B15.ogg">
+  <data key="d1">U134</data>
+  <data key="d2">Iron</data>
+  <data key="d3">B15.ogg</data>
+  <data key="d4">Iron/B15.ogg</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B16.ogg">
+  <data key="d1">U135</data>
+  <data key="d2">Iron</data>
+  <data key="d3">B16.ogg</data>
+  <data key="d4">Iron/B16.ogg</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B9.ogg">
+  <data key="d1">U136</data>
+  <data key="d2">Iron</data>
+  <data key="d3">B9.ogg</data>
+  <data key="d4">Iron/B9.ogg</data>
+  <data key="d5">B</data>
+  <data key="d6">validation</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C17.ogg">
+  <data key="d1">U137</data>
+  <data key="d2">Iron</data>
+  <data key="d3">C17.ogg</data>
+  <data key="d4">Iron/C17.ogg</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C18.ogg">
+  <data key="d1">U138</data>
+  <data key="d2">Iron</data>
+  <data key="d3">C18.ogg</data>
+  <data key="d4">Iron/C18.ogg</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C19.ogg">
+  <data key="d1">U139</data>
+  <data key="d2">Iron</data>
+  <data key="d3">C19.ogg</data>
+  <data key="d4">Iron/C19.ogg</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C20.ogg">
+  <data key="d1">U140</data>
+  <data key="d2">Iron</data>
+  <data key="d3">C20.ogg</data>
+  <data key="d4">Iron/C20.ogg</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C21.ogg">
+  <data key="d1">U141</data>
+  <data key="d2">Iron</data>
+  <data key="d3">C21.ogg</data>
+  <data key="d4">Iron/C21.ogg</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C22.ogg">
+  <data key="d1">U142</data>
+  <data key="d2">Iron</data>
+  <data key="d3">C22.ogg</data>
+  <data key="d4">Iron/C22.ogg</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C23.ogg">
+  <data key="d1">U143</data>
+  <data key="d2">Iron</data>
+  <data key="d3">C23.ogg</data>
+  <data key="d4">Iron/C23.ogg</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C24.ogg">
+  <data key="d1">U144</data>
+  <data key="d2">Iron</data>
+  <data key="d3">C24.ogg</data>
+  <data key="d4">Iron/C24.ogg</data>
+  <data key="d5">C</data>
+  <data key="d6">test</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D25.ogg">
+  <data key="d1">U145</data>
+  <data key="d2">Iron</data>
+  <data key="d3">D25.ogg</data>
+  <data key="d4">Iron/D25.ogg</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D26.ogg">
+  <data key="d1">U146</data>
+  <data key="d2">Iron</data>
+  <data key="d3">D26.ogg</data>
+  <data key="d4">Iron/D26.ogg</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D27.ogg">
+  <data key="d1">U147</data>
+  <data key="d2">Iron</data>
+  <data key="d3">D27.ogg</data>
+  <data key="d4">Iron/D27.ogg</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D28.ogg">
+  <data key="d1">U148</data>
+  <data key="d2">Iron</data>
+  <data key="d3">D28.ogg</data>
+  <data key="d4">Iron/D28.ogg</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D29.ogg">
+  <data key="d1">U149</data>
+  <data key="d2">Iron</data>
+  <data key="d3">D29.ogg</data>
+  <data key="d4">Iron/D29.ogg</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D30.ogg">
+  <data key="d1">U150</data>
+  <data key="d2">Iron</data>
+  <data key="d3">D30.ogg</data>
+  <data key="d4">Iron/D30.ogg</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D31.ogg">
+  <data key="d1">U151</data>
+  <data key="d2">Iron</data>
+  <data key="d3">D31.ogg</data>
+  <data key="d4">Iron/D31.ogg</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D32.ogg">
+  <data key="d1">U152</data>
+  <data key="d2">Iron</data>
+  <data key="d3">D32.ogg</data>
+  <data key="d4">Iron/D32.ogg</data>
+  <data key="d5">D</data>
+  <data key="d6">stress</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_1.ogg">
+  <data key="d1">U153</data>
+  <data key="d2">Iron</data>
+  <data key="d3">kalimat_1.ogg</data>
+  <data key="d4">Iron/dekat/kalimat_1.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_2.ogg">
+  <data key="d1">U154</data>
+  <data key="d2">Iron</data>
+  <data key="d3">kalimat_2.ogg</data>
+  <data key="d4">Iron/dekat/kalimat_2.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_3.ogg">
+  <data key="d1">U155</data>
+  <data key="d2">Iron</data>
+  <data key="d3">kalimat_3.ogg</data>
+  <data key="d4">Iron/dekat/kalimat_3.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_4.ogg">
+  <data key="d1">U156</data>
+  <data key="d2">Iron</data>
+  <data key="d3">kalimat_4.ogg</data>
+  <data key="d4">Iron/dekat/kalimat_4.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">dekat</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_1.ogg">
+  <data key="d1">U157</data>
+  <data key="d2">Iron</data>
+  <data key="d3">kalimat_1.ogg</data>
+  <data key="d4">Iron/jauh/kalimat_1.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_2.ogg">
+  <data key="d1">U158</data>
+  <data key="d2">Iron</data>
+  <data key="d3">kalimat_2.ogg</data>
+  <data key="d4">Iron/jauh/kalimat_2.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_3.ogg">
+  <data key="d1">U159</data>
+  <data key="d2">Iron</data>
+  <data key="d3">kalimat_3.ogg</data>
+  <data key="d4">Iron/jauh/kalimat_3.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<node id="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_4.ogg">
+  <data key="d1">U160</data>
+  <data key="d2">Iron</data>
+  <data key="d3">kalimat_4.ogg</data>
+  <data key="d4">Iron/jauh/kalimat_4.ogg</data>
+  <data key="d5">L</data>
+  <data key="d6">train</data>
+  <data key="d7">jauh</data>
+</node>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A2.m4a">
+  <data key="d8">0.10650831830077212</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8934916816992279</data>
+  <data key="d11">0.9467458408496139</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A3.m4a">
+  <data key="d8">0.12831652933168203</data>
+  <data key="d9">False</data>
+  <data key="d10">0.871683470668318</data>
+  <data key="d11">0.935841735334159</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A6.m4a">
+  <data key="d8">0.13899587084187948</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8610041291581205</data>
+  <data key="d11">0.9305020645790603</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A3.m4a">
+  <data key="d8">0.09878949776685864</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9012105022331414</data>
+  <data key="d11">0.9506052511165707</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B9.m4a">
+  <data key="d8">0.12977956049463435</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8702204395053657</data>
+  <data key="d11">0.9351102197526828</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A4.m4a">
+  <data key="d8">0.1430086081598161</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8569913918401839</data>
+  <data key="d11">0.928495695920092</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A3.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A6.m4a">
+  <data key="d8">0.11112380858703885</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8888761914129611</data>
+  <data key="d11">0.9444380957064806</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A3.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A4.m4a">
+  <data key="d8">0.11819519462503658</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8818048053749634</data>
+  <data key="d11">0.9409024026874817</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B9.m4a">
+  <data key="d8">0.16165645515217975</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8383435448478203</data>
+  <data key="d11">0.9191717724239101</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A5.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A6.m4a">
+  <data key="d8">0.08638896754807923</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9136110324519208</data>
+  <data key="d11">0.9568055162259603</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A5.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B16.m4a">
+  <data key="d8">0.10492135789597046</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8950786421040295</data>
+  <data key="d11">0.9475393210520148</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A5.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B14.m4a">
+  <data key="d8">0.12016220574453529</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8798377942554647</data>
+  <data key="d11">0.9399188971277324</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C23.m4a">
+  <data key="d8">0.09902395114405005</data>
+  <data key="d9">False</data>
+  <data key="d10">0.90097604885595</data>
+  <data key="d11">0.950488024427975</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C22.m4a">
+  <data key="d8">0.10094670865521138</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8990532913447886</data>
+  <data key="d11">0.9495266456723943</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A7.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C19.m4a">
+  <data key="d8">0.08422691750535027</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9157730824946497</data>
+  <data key="d11">0.9578865412473249</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A7.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a">
+  <data key="d8">0.11244136372790758</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8875586362720924</data>
+  <data key="d11">0.9437793181360462</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A7.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B15.m4a">
+  <data key="d8">0.11265127811288322</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8873487218871168</data>
+  <data key="d11">0.9436743609435584</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A8.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C18.m4a">
+  <data key="d8">0.09663648597788232</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9033635140221177</data>
+  <data key="d11">0.9516817570110588</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A8.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C19.m4a">
+  <data key="d8">0.09826905813679843</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9017309418632016</data>
+  <data key="d11">0.9508654709316008</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/A8.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a">
+  <data key="d8">0.10067289694754122</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8993271030524588</data>
+  <data key="d11">0.9496635515262294</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B11.m4a">
+  <data key="d8">0.07791200180436342</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9220879981956366</data>
+  <data key="d11">0.9610439990978183</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C22.m4a">
+  <data key="d8">0.07905305468291457</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9209469453170854</data>
+  <data key="d11">0.9604734726585427</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C18.m4a">
+  <data key="d8">0.0810708983192896</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9189291016807104</data>
+  <data key="d11">0.9594645508403552</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B12.m4a">
+  <data key="d8">0.10347310320088443</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8965268967991156</data>
+  <data key="d11">0.9482634483995578</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C17.m4a">
+  <data key="d8">0.0813600781491085</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9186399218508915</data>
+  <data key="d11">0.9593199609254457</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C20.m4a">
+  <data key="d8">0.09988918015534842</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9001108198446516</data>
+  <data key="d11">0.9500554099223257</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C24.m4a">
+  <data key="d8">0.13285036781925552</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8671496321807445</data>
+  <data key="d11">0.9335748160903723</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_1.m4a">
+  <data key="d8">0.15323692147644286</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8467630785235571</data>
+  <data key="d11">0.9233815392617786</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B11.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B13.m4a">
+  <data key="d8">0.07599917715004578</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9240008228499542</data>
+  <data key="d11">0.9620004114249772</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B11.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C18.m4a">
+  <data key="d8">0.07736687582514745</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9226331241748525</data>
+  <data key="d11">0.9613165620874262</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B11.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B14.m4a">
+  <data key="d8">0.09184976763134522</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9081502323686548</data>
+  <data key="d11">0.9540751161843274</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B11.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B15.m4a">
+  <data key="d8">0.09511023455251821</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9048897654474818</data>
+  <data key="d11">0.9524448827237408</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B11.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_2.m4a">
+  <data key="d8">0.11297931045946485</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8870206895405351</data>
+  <data key="d11">0.9435103447702675</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B12.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C22.m4a">
+  <data key="d8">0.09928181927625257</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9007181807237474</data>
+  <data key="d11">0.9503590903618737</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B12.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B15.m4a">
+  <data key="d8">0.10069178361789444</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8993082163821056</data>
+  <data key="d11">0.9496541081910528</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B13.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B15.m4a">
+  <data key="d8">0.08100182511503684</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9189981748849632</data>
+  <data key="d11">0.9594990874424816</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B13.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C19.m4a">
+  <data key="d8">0.08462750412297426</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9153724958770257</data>
+  <data key="d11">0.9576862479385129</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B13.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C20.m4a">
+  <data key="d8">0.09209076828097129</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9079092317190287</data>
+  <data key="d11">0.9539546158595144</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B13.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C23.m4a">
+  <data key="d8">0.0847785662465137</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9152214337534863</data>
+  <data key="d11">0.9576107168767432</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B13.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C24.m4a">
+  <data key="d8">0.13475065534846542</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8652493446515346</data>
+  <data key="d11">0.9326246723257673</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B13.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_2.m4a">
+  <data key="d8">0.13337108789565122</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8666289121043488</data>
+  <data key="d11">0.9333144560521744</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B14.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C23.m4a">
+  <data key="d8">0.07762482122453096</data>
+  <data key="d9">False</data>
+  <data key="d10">0.922375178775469</data>
+  <data key="d11">0.9611875893877345</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B14.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B16.m4a">
+  <data key="d8">0.08003037066245244</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9199696293375476</data>
+  <data key="d11">0.9599848146687737</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B14.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B9.m4a">
+  <data key="d8">0.12709571316922008</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8729042868307799</data>
+  <data key="d11">0.93645214341539</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B14.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_4.m4a">
+  <data key="d8">0.12956766028207378</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8704323397179262</data>
+  <data key="d11">0.9352161698589632</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B15.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C19.m4a">
+  <data key="d8">0.09082926300731442</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9091707369926856</data>
+  <data key="d11">0.9545853684963428</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B15.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B16.m4a">
+  <data key="d8">0.09770958368234295</data>
+  <data key="d9">False</data>
+  <data key="d10">0.902290416317657</data>
+  <data key="d11">0.9511452081588285</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B15.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_4.m4a">
+  <data key="d8">0.1787086993360555</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8212913006639445</data>
+  <data key="d11">0.9106456503319722</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B15.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a">
+  <data key="d8">0.11298654428912647</data>
+  <data key="d9">True</data>
+  <data key="d10">0.8870134557108735</data>
+  <data key="d11">0.9435067278554368</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B16.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C23.m4a">
+  <data key="d8">0.09542347870752144</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9045765212924786</data>
+  <data key="d11">0.9522882606462393</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B16.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D30.m4a">
+  <data key="d8">0.12910811246286746</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8708918875371325</data>
+  <data key="d11">0.9354459437685663</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B9.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C22.m4a">
+  <data key="d8">0.10498503280414284</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8950149671958572</data>
+  <data key="d11">0.9475074835979286</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/B9.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C21.m4a">
+  <data key="d8">0.12269788254591196</data>
+  <data key="d9">False</data>
+  <data key="d10">0.877302117454088</data>
+  <data key="d11">0.938651058727044</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C17.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C22.m4a">
+  <data key="d8">0.0707199554331277</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9292800445668723</data>
+  <data key="d11">0.9646400222834361</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C17.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C23.m4a">
+  <data key="d8">0.08664302597124762</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9133569740287524</data>
+  <data key="d11">0.9566784870143762</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C17.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C21.m4a">
+  <data key="d8">0.09862317091520745</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9013768290847926</data>
+  <data key="d11">0.9506884145423963</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C17.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_1.m4a">
+  <data key="d8">0.1533750157008401</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8466249842991599</data>
+  <data key="d11">0.9233124921495799</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C17.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_3.m4a">
+  <data key="d8">0.11031002447781235</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8896899755221876</data>
+  <data key="d11">0.9448449877610938</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C18.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C22.m4a">
+  <data key="d8">0.09151882878853035</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9084811712114697</data>
+  <data key="d11">0.9542405856057348</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C18.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C21.m4a">
+  <data key="d8">0.10574389618652014</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8942561038134799</data>
+  <data key="d11">0.94712805190674</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C18.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C24.m4a">
+  <data key="d8">0.10886154185611718</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8911384581438828</data>
+  <data key="d11">0.9455692290719414</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C18.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D26.m4a">
+  <data key="d8">0.1314195513695522</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8685804486304478</data>
+  <data key="d11">0.9342902243152239</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C18.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_4.m4a">
+  <data key="d8">0.12148234319800788</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8785176568019921</data>
+  <data key="d11">0.9392588284009961</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C19.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C20.m4a">
+  <data key="d8">0.0641821139765435</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9358178860234565</data>
+  <data key="d11">0.9679089430117283</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C19.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C21.m4a">
+  <data key="d8">0.09765209870071101</data>
+  <data key="d9">False</data>
+  <data key="d10">0.902347901299289</data>
+  <data key="d11">0.9511739506496445</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C20.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_4.m4a">
+  <data key="d8">0.17916908916786933</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8208309108321307</data>
+  <data key="d11">0.9104154554160653</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C22.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C23.m4a">
+  <data key="d8">0.07861712007742916</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9213828799225708</data>
+  <data key="d11">0.9606914399612854</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/C23.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_3.m4a">
+  <data key="d8">0.10439551438175132</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8956044856182487</data>
+  <data key="d11">0.9478022428091244</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D25.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D30.m4a">
+  <data key="d8">0.10202272950274816</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8979772704972518</data>
+  <data key="d11">0.9489886352486259</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D25.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D27.m4a">
+  <data key="d8">0.13238486788769022</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8676151321123098</data>
+  <data key="d11">0.9338075660561549</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D25.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a">
+  <data key="d8">0.1439331285945158</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8560668714054842</data>
+  <data key="d11">0.9280334357027421</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D26.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a">
+  <data key="d8">0.11865595131993767</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8813440486800623</data>
+  <data key="d11">0.9406720243400312</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D26.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_4.m4a">
+  <data key="d8">0.13455104930253414</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8654489506974659</data>
+  <data key="d11">0.9327244753487329</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D27.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a">
+  <data key="d8">0.09687310315223385</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9031268968477661</data>
+  <data key="d11">0.9515634484238831</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D27.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D28.m4a">
+  <data key="d8">0.11002857075610939</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8899714292438906</data>
+  <data key="d11">0.9449857146219454</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D27.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D31.m4a">
+  <data key="d8">0.11695842177947569</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8830415782205243</data>
+  <data key="d11">0.9415207891102622</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D28.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a">
+  <data key="d8">0.10447062450061884</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8955293754993812</data>
+  <data key="d11">0.9477646877496906</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D28.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D31.m4a">
+  <data key="d8">0.11039883546238327</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8896011645376167</data>
+  <data key="d11">0.9448005822688084</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D28.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D32.m4a">
+  <data key="d8">0.12730352806100897</data>
+  <data key="d9">False</data>
+  <data key="d10">0.872696471938991</data>
+  <data key="d11">0.9363482359694955</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D32.m4a">
+  <data key="d8">0.09933846716811878</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9006615328318812</data>
+  <data key="d11">0.9503307664159406</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D30.m4a">
+  <data key="d8">0.11039069029685611</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8896093097031439</data>
+  <data key="d11">0.944804654851572</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D31.m4a">
+  <data key="d8">0.11023818413639119</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8897618158636088</data>
+  <data key="d11">0.9448809079318043</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_1.m4a">
+  <data key="d8">0.1370027765505133</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8629972234494867</data>
+  <data key="d11">0.9314986117247434</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_2.m4a">
+  <data key="d8">0.11369913377239027</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8863008662276097</data>
+  <data key="d11">0.9431504331138049</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_3.m4a">
+  <data key="d8">0.14274181005090325</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8572581899490967</data>
+  <data key="d11">0.9286290949745484</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D29.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_4.m4a">
+  <data key="d8">0.1213679876479341</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8786320123520659</data>
+  <data key="d11">0.939316006176033</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D31.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/D32.m4a">
+  <data key="d8">0.12175016955117246</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8782498304488275</data>
+  <data key="d11">0.9391249152244138</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_3.m4a">
+  <data key="d8">0.15468757739158945</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8453124226084106</data>
+  <data key="d11">0.9226562113042053</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_3.m4a">
+  <data key="d8">0.10643344286226464</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8935665571377354</data>
+  <data key="d11">0.9467832785688677</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/dekat/kalimat_4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_4.m4a">
+  <data key="d8">0.18606196373766082</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8139380362623392</data>
+  <data key="d11">0.9069690181311696</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_2.m4a">
+  <data key="d8">0.11838187024397828</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8816181297560217</data>
+  <data key="d11">0.9408090648780109</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_3.m4a">
+  <data key="d8">0.11862804096012147</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8813719590398785</data>
+  <data key="d11">0.9406859795199393</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_3.m4a">
+  <data key="d8">0.09819012366978408</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9018098763302159</data>
+  <data key="d11">0.950904938165108</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Aldi/jauh/kalimat_4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C24.m4a">
+  <data key="d8">0.39797831479135404</data>
+  <data key="d9">True</data>
+  <data key="d10">0.602021685208646</data>
+  <data key="d11">0.801010842604323</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A3.m4a">
+  <data key="d8">0.08083714816842402</data>
+  <data key="d9">False</data>
+  <data key="d10">0.919162851831576</data>
+  <data key="d11">0.959581425915788</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C24.m4a">
+  <data key="d8">0.09697779092239156</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9030222090776084</data>
+  <data key="d11">0.9515111045388043</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A2.m4a">
+  <data key="d8">0.10006570804949733</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8999342919505027</data>
+  <data key="d11">0.9499671459752513</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B9.m4a">
+  <data key="d8">0.08668943773312132</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9133105622668787</data>
+  <data key="d11">0.9566552811334393</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B13.m4a">
+  <data key="d8">0.08957276113039825</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9104272388696018</data>
+  <data key="d11">0.9552136194348009</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A3.m4a">
+  <data key="d8">0.09563856284562822</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9043614371543718</data>
+  <data key="d11">0.9521807185771859</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C17.m4a">
+  <data key="d8">0.10882400697985095</data>
+  <data key="d9">False</data>
+  <data key="d10">0.891175993020149</data>
+  <data key="d11">0.9455879965100745</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A3.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A8.m4a">
+  <data key="d8">0.06721676495763607</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9327832350423639</data>
+  <data key="d11">0.966391617521182</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A3.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B15.m4a">
+  <data key="d8">0.07403438132898832</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9259656186710117</data>
+  <data key="d11">0.9629828093355058</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A3.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A5.m4a">
+  <data key="d8">0.09995336174440406</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9000466382555959</data>
+  <data key="d11">0.950023319127798</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A3.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A6.m4a">
+  <data key="d8">0.11402614606783446</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8859738539321655</data>
+  <data key="d11">0.9429869269660828</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C18.m4a">
+  <data key="d8">0.08158261502977515</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9184173849702248</data>
+  <data key="d11">0.9592086924851124</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B16.m4a">
+  <data key="d8">0.08634217708677783</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9136578229132222</data>
+  <data key="d11">0.9568289114566111</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C17.m4a">
+  <data key="d8">0.08763770319867858</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9123622968013214</data>
+  <data key="d11">0.9561811484006607</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A7.m4a">
+  <data key="d8">0.09823308523308849</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9017669147669115</data>
+  <data key="d11">0.9508834573834557</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B13.m4a">
+  <data key="d8">0.10158913451168194</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8984108654883181</data>
+  <data key="d11">0.949205432744159</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_1.m4a">
+  <data key="d8">0.47060913376316527</data>
+  <data key="d9">True</data>
+  <data key="d10">0.5293908662368347</data>
+  <data key="d11">0.7646954331184174</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A5.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A8.m4a">
+  <data key="d8">0.08147989429567593</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9185201057043241</data>
+  <data key="d11">0.959260052852162</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A5.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B14.m4a">
+  <data key="d8">0.09456100637712617</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9054389936228738</data>
+  <data key="d11">0.952719496811437</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C19.m4a">
+  <data key="d8">0.1025350093559958</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8974649906440042</data>
+  <data key="d11">0.9487324953220021</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C24.m4a">
+  <data key="d8">0.1127754793509067</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8872245206490933</data>
+  <data key="d11">0.9436122603245467</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A7.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A8.m4a">
+  <data key="d8">0.08484502430157026</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9151549756984297</data>
+  <data key="d11">0.9575774878492149</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A7.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B9.m4a">
+  <data key="d8">0.0888069872729732</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9111930127270268</data>
+  <data key="d11">0.9555965063635135</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A8.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B14.m4a">
+  <data key="d8">0.08141413800433339</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9185858619956666</data>
+  <data key="d11">0.9592929309978333</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/A8.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B10.m4a">
+  <data key="d8">0.088527386320856</data>
+  <data key="d9">False</data>
+  <data key="d10">0.911472613679144</data>
+  <data key="d11">0.955736306839572</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B11.m4a">
+  <data key="d8">0.09444803745848951</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9055519625415105</data>
+  <data key="d11">0.9527759812707552</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B9.m4a">
+  <data key="d8">0.09448244432384834</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9055175556761517</data>
+  <data key="d11">0.9527587778380758</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B11.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B15.m4a">
+  <data key="d8">0.08793313083835408</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9120668691616459</data>
+  <data key="d11">0.956033434580823</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B11.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C18.m4a">
+  <data key="d8">0.09444475978513878</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9055552402148612</data>
+  <data key="d11">0.9527776201074306</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B12.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C21.m4a">
+  <data key="d8">0.09840360428528427</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9015963957147157</data>
+  <data key="d11">0.9507981978573579</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B12.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C19.m4a">
+  <data key="d8">0.10763544530419522</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8923645546958048</data>
+  <data key="d11">0.9461822773479024</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B12.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C17.m4a">
+  <data key="d8">0.11179582591668424</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8882041740833158</data>
+  <data key="d11">0.9441020870416579</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B12.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_4.ogg">
+  <data key="d8">0.4659551648383258</data>
+  <data key="d9">True</data>
+  <data key="d10">0.5340448351616742</data>
+  <data key="d11">0.7670224175808371</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B13.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C21.m4a">
+  <data key="d8">0.10113533460011692</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8988646653998831</data>
+  <data key="d11">0.9494323326999415</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B14.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B16.m4a">
+  <data key="d8">0.06168981121409678</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9383101887859032</data>
+  <data key="d11">0.9691550943929517</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B14.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C18.m4a">
+  <data key="d8">0.0857395697874287</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9142604302125713</data>
+  <data key="d11">0.9571302151062857</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B15.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C24.m4a">
+  <data key="d8">0.09850158033119283</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9014984196688072</data>
+  <data key="d11">0.9507492098344036</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B16.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C18.m4a">
+  <data key="d8">0.09104296281929702</data>
+  <data key="d9">False</data>
+  <data key="d10">0.908957037180703</data>
+  <data key="d11">0.9544785185903515</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B16.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C22.m4a">
+  <data key="d8">0.12305845424837236</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8769415457516276</data>
+  <data key="d11">0.9384707728758138</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B9.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C18.m4a">
+  <data key="d8">0.09306479424050174</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9069352057594983</data>
+  <data key="d11">0.9534676028797491</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/B9.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C22.m4a">
+  <data key="d8">0.11150471117705174</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8884952888229483</data>
+  <data key="d11">0.9442476444114741</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C17.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C18.m4a">
+  <data key="d8">0.1043977712832681</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8956022287167319</data>
+  <data key="d11">0.947801114358366</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C18.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C21.m4a">
+  <data key="d8">0.07314477724152058</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9268552227584794</data>
+  <data key="d11">0.9634276113792397</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C18.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C20.m4a">
+  <data key="d8">0.10479909424033851</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8952009057596615</data>
+  <data key="d11">0.9476004528798307</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C18.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C22.m4a">
+  <data key="d8">0.10325306383309218</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8967469361669078</data>
+  <data key="d11">0.9483734680834539</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C19.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C24.m4a">
+  <data key="d8">0.07345774379810666</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9265422562018933</data>
+  <data key="d11">0.9632711281009467</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C19.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C20.m4a">
+  <data key="d8">0.08055007439286421</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9194499256071358</data>
+  <data key="d11">0.9597249628035679</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C19.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C23.m4a">
+  <data key="d8">0.08648385282020632</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9135161471797937</data>
+  <data key="d11">0.9567580735898968</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C19.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C21.m4a">
+  <data key="d8">0.08737309977199814</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9126269002280019</data>
+  <data key="d11">0.9563134501140009</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C20.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C21.m4a">
+  <data key="d8">0.11068505959798258</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8893149404020174</data>
+  <data key="d11">0.9446574702010087</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C23.m4a">
+  <data key="d8">0.07015773683160043</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9298422631683996</data>
+  <data key="d11">0.9649211315841998</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D30.m4a">
+  <data key="d8">0.10556017321730327</data>
+  <data key="d9">True</data>
+  <data key="d10">0.8944398267826967</data>
+  <data key="d11">0.9472199133913484</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/C23.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D25.m4a">
+  <data key="d8">0.10617627115653971</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8938237288434603</data>
+  <data key="d11">0.9469118644217301</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D25.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D30.m4a">
+  <data key="d8">0.09102387815144286</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9089761218485571</data>
+  <data key="d11">0.9544880609242785</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D25.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D32.m4a">
+  <data key="d8">0.10199676119023948</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8980032388097605</data>
+  <data key="d11">0.9490016194048803</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D25.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D31.m4a">
+  <data key="d8">0.11641182884343704</data>
+  <data key="d9">False</data>
+  <data key="d10">0.883588171156563</data>
+  <data key="d11">0.9417940855782815</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D26.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D32.m4a">
+  <data key="d8">0.10042741506761599</data>
+  <data key="d9">False</data>
+  <data key="d10">0.899572584932384</data>
+  <data key="d11">0.949786292466192</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D26.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D28.m4a">
+  <data key="d8">0.10793334914945352</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8920666508505465</data>
+  <data key="d11">0.9460333254252733</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D26.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D31.m4a">
+  <data key="d8">0.117424735603752</data>
+  <data key="d9">False</data>
+  <data key="d10">0.882575264396248</data>
+  <data key="d11">0.9412876321981241</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D27.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D32.m4a">
+  <data key="d8">0.10349231464709518</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8965076853529048</data>
+  <data key="d11">0.9482538426764524</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D27.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D30.m4a">
+  <data key="d8">0.1137575357534899</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8862424642465101</data>
+  <data key="d11">0.943121232123255</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D27.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D28.m4a">
+  <data key="d8">0.11397430540217601</data>
+  <data key="d9">False</data>
+  <data key="d10">0.886025694597824</data>
+  <data key="d11">0.943012847298912</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D28.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D32.m4a">
+  <data key="d8">0.07816016250863955</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9218398374913604</data>
+  <data key="d11">0.9609199187456803</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D28.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D29.m4a">
+  <data key="d8">0.11033796295718767</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8896620370428123</data>
+  <data key="d11">0.9448310185214062</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D29.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D30.m4a">
+  <data key="d8">0.08334344298848917</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9166565570115108</data>
+  <data key="d11">0.9583282785057554</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D29.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D32.m4a">
+  <data key="d8">0.10333076425095034</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8966692357490497</data>
+  <data key="d11">0.9483346178745249</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D30.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D31.m4a">
+  <data key="d8">0.09354909720493021</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9064509027950698</data>
+  <data key="d11">0.9532254513975349</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D30.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D32.m4a">
+  <data key="d8">0.09452396186996581</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9054760381300342</data>
+  <data key="d11">0.9527380190650171</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D31.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/D32.m4a">
+  <data key="d8">0.09567014777568572</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9043298522243143</data>
+  <data key="d11">0.9521649261121572</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_3.ogg">
+  <data key="d8">0.20606000462139296</data>
+  <data key="d9">False</data>
+  <data key="d10">0.793939995378607</data>
+  <data key="d11">0.8969699976893035</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_4.ogg">
+  <data key="d8">0.21482978206288494</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7851702179371151</data>
+  <data key="d11">0.8925851089685575</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_2.ogg">
+  <data key="d8">0.22988045688630465</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7701195431136953</data>
+  <data key="d11">0.8850597715568477</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_4.ogg">
+  <data key="d8">0.21073842906992013</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7892615709300799</data>
+  <data key="d11">0.8946307854650399</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_3.ogg">
+  <data key="d8">0.2521929101039393</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7478070898960607</data>
+  <data key="d11">0.8739035449480304</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_3.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_2.ogg">
+  <data key="d8">0.18737823374469986</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8126217662553001</data>
+  <data key="d11">0.9063108831276501</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_3.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_3.ogg">
+  <data key="d8">0.21290169722662067</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7870983027733793</data>
+  <data key="d11">0.8935491513866897</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_3.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_4.ogg">
+  <data key="d8">0.23619627909279184</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7638037209072082</data>
+  <data key="d11">0.8819018604536041</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_3.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_4.ogg">
+  <data key="d8">0.25719504146063943</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7428049585393606</data>
+  <data key="d11">0.8714024792696803</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_4.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_1.ogg">
+  <data key="d8">0.2554612169361592</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7445387830638408</data>
+  <data key="d11">0.8722693915319204</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/dekat/kalimat_4.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D30.ogg">
+  <data key="d8">0.44975646027148053</data>
+  <data key="d9">True</data>
+  <data key="d10">0.5502435397285195</data>
+  <data key="d11">0.7751217698642597</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_3.ogg">
+  <data key="d8">0.2012005049830432</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7987994950169568</data>
+  <data key="d11">0.8993997475084784</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_2.ogg">
+  <data key="d8">0.20788450692384897</data>
+  <data key="d9">False</data>
+  <data key="d10">0.792115493076151</data>
+  <data key="d11">0.8960577465380755</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_3.ogg">
+  <data key="d8">0.10119013183320336</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8988098681667966</data>
+  <data key="d11">0.9494049340833983</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_4.ogg">
+  <data key="d8">0.19956804793490313</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8004319520650969</data>
+  <data key="d11">0.9002159760325484</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_3.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Faqih/jauh/kalimat_4.ogg">
+  <data key="d8">0.19849351168312301</data>
+  <data key="d9">False</data>
+  <data key="d10">0.801506488316877</data>
+  <data key="d11">0.9007532441584385</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a">
+  <data key="d8">0.12275446249492594</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8772455375050741</data>
+  <data key="d11">0.938622768752537</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A2.m4a">
+  <data key="d8">0.12745270786799912</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8725472921320009</data>
+  <data key="d11">0.9362736460660004</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A5.m4a">
+  <data key="d8">0.1315493604084128</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8684506395915872</data>
+  <data key="d11">0.9342253197957936</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_1.m4a">
+  <data key="d8">0.1850154004936435</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8149845995063565</data>
+  <data key="d11">0.9074922997531782</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B9.m4a">
+  <data key="d8">0.10421504985425223</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8957849501457478</data>
+  <data key="d11">0.9478924750728739</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A5.m4a">
+  <data key="d8">0.10690064600234594</data>
+  <data key="d9">False</data>
+  <data key="d10">0.893099353997654</data>
+  <data key="d11">0.9465496769988271</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a">
+  <data key="d8">0.11058963660029264</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8894103633997074</data>
+  <data key="d11">0.9447051816998537</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_2.m4a">
+  <data key="d8">0.1421038011784561</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8578961988215439</data>
+  <data key="d11">0.9289480994107719</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A3.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a">
+  <data key="d8">0.09908571128120247</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9009142887187975</data>
+  <data key="d11">0.9504571443593988</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A3.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a">
+  <data key="d8">0.09957643394608917</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9004235660539108</data>
+  <data key="d11">0.9502117830269554</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A3.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B14.m4a">
+  <data key="d8">0.10095999132811839</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8990400086718816</data>
+  <data key="d11">0.9495200043359409</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C17.m4a">
+  <data key="d8">0.08554480884198279</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9144551911580172</data>
+  <data key="d11">0.9572275955790086</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a">
+  <data key="d8">0.09819408297412724</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9018059170258728</data>
+  <data key="d11">0.9509029585129364</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B14.m4a">
+  <data key="d8">0.1032001640981397</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8967998359018603</data>
+  <data key="d11">0.9483999179509301</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B16.m4a">
+  <data key="d8">0.10642287362079994</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8935771263792001</data>
+  <data key="d11">0.9467885631896</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A4.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C20.m4a">
+  <data key="d8">0.12025718588314893</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8797428141168511</data>
+  <data key="d11">0.9398714070584255</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A5.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a">
+  <data key="d8">0.06754574519604883</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9324542548039512</data>
+  <data key="d11">0.9662271274019756</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A5.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C17.m4a">
+  <data key="d8">0.09108953240377327</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9089104675962267</data>
+  <data key="d11">0.9544552337981134</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A5.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B12.m4a">
+  <data key="d8">0.10290695934156935</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8970930406584307</data>
+  <data key="d11">0.9485465203292154</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A5.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B16.m4a">
+  <data key="d8">0.11049876421949467</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8895012357805053</data>
+  <data key="d11">0.9447506178902527</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A7.m4a">
+  <data key="d8">0.08256886154384402</data>
+  <data key="d9">False</data>
+  <data key="d10">0.917431138456156</data>
+  <data key="d11">0.958715569228078</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B14.m4a">
+  <data key="d8">0.08793159072414614</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9120684092758539</data>
+  <data key="d11">0.9560342046379269</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B13.m4a">
+  <data key="d8">0.09428173749975532</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9057182625002447</data>
+  <data key="d11">0.9528591312501223</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A8.m4a">
+  <data key="d8">0.09727457387089289</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9027254261291071</data>
+  <data key="d11">0.9513627130645536</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a">
+  <data key="d8">0.09668524600414075</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9033147539958593</data>
+  <data key="d11">0.9516573769979296</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C18.m4a">
+  <data key="d8">0.09734352963436788</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9026564703656321</data>
+  <data key="d11">0.9513282351828161</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A6.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C23.m4a">
+  <data key="d8">0.09622249564956664</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9037775043504334</data>
+  <data key="d11">0.9518887521752166</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A7.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a">
+  <data key="d8">0.09222115916751228</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9077788408324877</data>
+  <data key="d11">0.9538894204162438</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A7.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B14.m4a">
+  <data key="d8">0.10599531301910226</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8940046869808977</data>
+  <data key="d11">0.9470023434904489</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A7.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_3.m4a">
+  <data key="d8">0.16421626460823935</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8357837353917607</data>
+  <data key="d11">0.9178918676958803</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A8.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a">
+  <data key="d8">0.09658422242665288</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9034157775733471</data>
+  <data key="d11">0.9517078887866736</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/A8.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a">
+  <data key="d8">0.1100952069367569</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8899047930632431</data>
+  <data key="d11">0.9449523965316216</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C17.m4a">
+  <data key="d8">0.08200348173980565</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9179965182601943</data>
+  <data key="d11">0.9589982591300972</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a">
+  <data key="d8">0.08526737936499784</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9147326206350022</data>
+  <data key="d11">0.9573663103175011</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B11.m4a">
+  <data key="d8">0.10728703975465215</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8927129602453479</data>
+  <data key="d11">0.9463564801226739</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B12.m4a">
+  <data key="d8">0.09390843063624899</data>
+  <data key="d9">False</data>
+  <data key="d10">0.906091569363751</data>
+  <data key="d11">0.9530457846818755</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B13.m4a">
+  <data key="d8">0.09993414918219867</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9000658508178013</data>
+  <data key="d11">0.9500329254089006</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B14.m4a">
+  <data key="d8">0.09065086756134644</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9093491324386536</data>
+  <data key="d11">0.9546745662193268</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B9.m4a">
+  <data key="d8">0.09610065476707641</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9038993452329236</data>
+  <data key="d11">0.9519496726164618</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B10.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C22.m4a">
+  <data key="d8">0.11344861915125937</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8865513808487406</data>
+  <data key="d11">0.9432756904243703</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B11.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a">
+  <data key="d8">0.11201708774254349</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8879829122574565</data>
+  <data key="d11">0.9439914561287283</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B11.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C17.m4a">
+  <data key="d8">0.12026708625971316</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8797329137402868</data>
+  <data key="d11">0.9398664568701434</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B12.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B16.m4a">
+  <data key="d8">0.11197792392879125</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8880220760712088</data>
+  <data key="d11">0.9440110380356044</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B13.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B14.m4a">
+  <data key="d8">0.09347232952726836</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9065276704727316</data>
+  <data key="d11">0.9532638352363658</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B14.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C19.m4a">
+  <data key="d8">0.10859523751684264</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8914047624831574</data>
+  <data key="d11">0.9457023812415787</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B14.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_4.m4a">
+  <data key="d8">0.1658801246536452</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8341198753463548</data>
+  <data key="d11">0.9170599376731774</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C17.m4a">
+  <data key="d8">0.09576057377562952</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9042394262243705</data>
+  <data key="d11">0.9521197131121852</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B9.m4a">
+  <data key="d8">0.10512571907749613</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8948742809225039</data>
+  <data key="d11">0.9474371404612519</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C18.m4a">
+  <data key="d8">0.10407974760132599</data>
+  <data key="d9">False</data>
+  <data key="d10">0.895920252398674</data>
+  <data key="d11">0.947960126199337</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B15.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C19.m4a">
+  <data key="d8">0.10420753320187004</data>
+  <data key="d9">False</data>
+  <data key="d10">0.89579246679813</data>
+  <data key="d11">0.947896233399065</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B16.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C17.m4a">
+  <data key="d8">0.09622225287667019</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9037777471233298</data>
+  <data key="d11">0.9518888735616648</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/B9.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D30.m4a">
+  <data key="d8">0.14362365751721995</data>
+  <data key="d9">False</data>
+  <data key="d10">0.85637634248278</data>
+  <data key="d11">0.92818817124139</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C17.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C22.m4a">
+  <data key="d8">0.10767476094593387</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8923252390540661</data>
+  <data key="d11">0.9461626195270331</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C18.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C24.m4a">
+  <data key="d8">0.11646848877069349</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8835315112293065</data>
+  <data key="d11">0.9417657556146533</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C19.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C23.m4a">
+  <data key="d8">0.10554078278662482</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8944592172133752</data>
+  <data key="d11">0.9472296086066876</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C19.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C20.m4a">
+  <data key="d8">0.1110803490586526</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8889196509413474</data>
+  <data key="d11">0.9444598254706738</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C20.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C23.m4a">
+  <data key="d8">0.10581424885054358</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8941857511494564</data>
+  <data key="d11">0.9470928755747282</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C20.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_4.m4a">
+  <data key="d8">0.1799672897845379</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8200327102154621</data>
+  <data key="d11">0.910016355107731</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C22.m4a">
+  <data key="d8">0.08973341544571678</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9102665845542832</data>
+  <data key="d11">0.9551332922771416</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C24.m4a">
+  <data key="d8">0.09704142066134247</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9029585793386575</data>
+  <data key="d11">0.9514792896693287</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D29.m4a">
+  <data key="d8">0.09936307911376008</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9006369208862399</data>
+  <data key="d11">0.95031846044312</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C23.m4a">
+  <data key="d8">0.1002656472671426</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8997343527328574</data>
+  <data key="d11">0.9498671763664287</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D26.m4a">
+  <data key="d8">0.11657148992780941</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8834285100721906</data>
+  <data key="d11">0.9417142550360953</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D30.m4a">
+  <data key="d8">0.12330282585214769</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8766971741478523</data>
+  <data key="d11">0.9383485870739261</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D32.m4a">
+  <data key="d8">0.11999421007589217</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8800057899241078</data>
+  <data key="d11">0.9400028949620539</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_1.m4a">
+  <data key="d8">0.18355684562695274</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8164431543730473</data>
+  <data key="d11">0.9082215771865236</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_2.m4a">
+  <data key="d8">0.12852969270488845</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8714703072951115</data>
+  <data key="d11">0.9357351536475558</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_3.m4a">
+  <data key="d8">0.1484025741651247</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8515974258348753</data>
+  <data key="d11">0.9257987129174376</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C21.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_4.m4a">
+  <data key="d8">0.16388546952144945</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8361145304785506</data>
+  <data key="d11">0.9180572652392753</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C23.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C24.m4a">
+  <data key="d8">0.07974539716381979</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9202546028361802</data>
+  <data key="d11">0.9601273014180901</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C23.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_3.m4a">
+  <data key="d8">0.17321575590114668</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8267842440988533</data>
+  <data key="d11">0.9133921220494267</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/C24.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D25.m4a">
+  <data key="d8">0.14398458030448513</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8560154196955149</data>
+  <data key="d11">0.9280077098477575</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D25.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D32.m4a">
+  <data key="d8">0.11665478359135051</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8833452164086495</data>
+  <data key="d11">0.9416726082043247</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D25.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D28.m4a">
+  <data key="d8">0.12513051500490535</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8748694849950946</data>
+  <data key="d11">0.9374347424975473</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D26.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D29.m4a">
+  <data key="d8">0.11157987772916922</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8884201222708308</data>
+  <data key="d11">0.9442100611354154</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D26.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D32.m4a">
+  <data key="d8">0.12456496918082194</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8754350308191781</data>
+  <data key="d11">0.937717515409589</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D26.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_3.m4a">
+  <data key="d8">0.15757825355320265</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8424217464467973</data>
+  <data key="d11">0.9212108732233987</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D27.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D28.m4a">
+  <data key="d8">0.10331037390616238</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8966896260938376</data>
+  <data key="d11">0.9483448130469188</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D27.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D32.m4a">
+  <data key="d8">0.12017040055728312</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8798295994427169</data>
+  <data key="d11">0.9399147997213584</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D27.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D31.m4a">
+  <data key="d8">0.135765021215154</data>
+  <data key="d9">False</data>
+  <data key="d10">0.864234978784846</data>
+  <data key="d11">0.932117489392423</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D28.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D29.m4a">
+  <data key="d8">0.10382589818857357</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8961741018114264</data>
+  <data key="d11">0.9480870509057132</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D28.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D31.m4a">
+  <data key="d8">0.10983944131816137</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8901605586818386</data>
+  <data key="d11">0.9450802793409193</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D28.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D30.m4a">
+  <data key="d8">0.116097502465488</data>
+  <data key="d9">False</data>
+  <data key="d10">0.883902497534512</data>
+  <data key="d11">0.941951248767256</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D29.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D31.m4a">
+  <data key="d8">0.12898732677079994</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8710126732292001</data>
+  <data key="d11">0.9355063366146</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D30.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_1.m4a">
+  <data key="d8">0.24340854584413107</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7565914541558689</data>
+  <data key="d11">0.8782957270779345</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/D31.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_1.m4a">
+  <data key="d8">0.25047393576222166</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7495260642377783</data>
+  <data key="d11">0.8747630321188892</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_2.m4a">
+  <data key="d8">0.15818090043890554</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8418190995610945</data>
+  <data key="d11">0.9209095497805473</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_1.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_1.m4a">
+  <data key="d8">0.22477476851744616</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7752252314825538</data>
+  <data key="d11">0.8876126157412769</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/dekat/kalimat_4.m4a">
+  <data key="d8">0.14521038886572302</data>
+  <data key="d9">False</data>
+  <data key="d10">0.854789611134277</data>
+  <data key="d11">0.9273948055671385</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_4.m4a">
+  <data key="d8">0.1497211677838095</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8502788322161905</data>
+  <data key="d11">0.9251394161080952</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_2.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_3.m4a">
+  <data key="d8">0.1663014206531912</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8336985793468088</data>
+  <data key="d11">0.9168492896734044</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_3.m4a" target="/content/drive/MyDrive/Kecerdasan Artifisial/Ilman/jauh/kalimat_4.m4a">
+  <data key="d8">0.1522237675121456</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8477762324878544</data>
+  <data key="d11">0.9238881162439272</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A2.ogg">
+  <data key="d8">0.131740313374622</data>
+  <data key="d9">False</data>
+  <data key="d10">0.868259686625378</data>
+  <data key="d11">0.934129843312689</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A3.ogg">
+  <data key="d8">0.134694578234283</data>
+  <data key="d9">False</data>
+  <data key="d10">0.865305421765717</data>
+  <data key="d11">0.9326527108828585</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A4.ogg">
+  <data key="d8">0.16795035132295655</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8320496486770435</data>
+  <data key="d11">0.9160248243385217</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A3.ogg">
+  <data key="d8">0.09420035744086808</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9057996425591319</data>
+  <data key="d11">0.952899821279566</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A4.ogg">
+  <data key="d8">0.12695262298889975</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8730473770111002</data>
+  <data key="d11">0.9365236885055501</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A3.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A8.ogg">
+  <data key="d8">0.12276319606191799</data>
+  <data key="d9">False</data>
+  <data key="d10">0.877236803938082</data>
+  <data key="d11">0.938618401969041</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A3.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D28.ogg">
+  <data key="d8">0.12607424796488098</data>
+  <data key="d9">False</data>
+  <data key="d10">0.873925752035119</data>
+  <data key="d11">0.9369628760175595</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A3.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A4.ogg">
+  <data key="d8">0.1319195806728075</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8680804193271925</data>
+  <data key="d11">0.9340402096635962</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A4.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A8.ogg">
+  <data key="d8">0.14239747731909902</data>
+  <data key="d9">False</data>
+  <data key="d10">0.857602522680901</data>
+  <data key="d11">0.9288012613404505</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A5.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B14.ogg">
+  <data key="d8">0.07710977393497243</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9228902260650276</data>
+  <data key="d11">0.9614451130325138</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A5.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A6.ogg">
+  <data key="d8">0.08754728386634314</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9124527161336569</data>
+  <data key="d11">0.9562263580668284</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A5.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A7.ogg">
+  <data key="d8">0.09199922599939514</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9080007740006049</data>
+  <data key="d11">0.9540003870003024</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A6.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A7.ogg">
+  <data key="d8">0.07105600489808794</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9289439951019121</data>
+  <data key="d11">0.964471997550956</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A6.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A8.ogg">
+  <data key="d8">0.08269058562567866</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9173094143743213</data>
+  <data key="d11">0.9586547071871607</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A7.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B9.ogg">
+  <data key="d8">0.09388838659207899</data>
+  <data key="d9">False</data>
+  <data key="d10">0.906111613407921</data>
+  <data key="d11">0.9530558067039605</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A8.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B10.ogg">
+  <data key="d8">0.06397291256635751</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9360270874336425</data>
+  <data key="d11">0.9680135437168212</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A8.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B9.ogg">
+  <data key="d8">0.07412292880667692</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9258770711933231</data>
+  <data key="d11">0.9629385355966615</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A8.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B14.ogg">
+  <data key="d8">0.07577587202670966</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9242241279732903</data>
+  <data key="d11">0.9621120639866452</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A8.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B11.ogg">
+  <data key="d8">0.08759360684936557</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9124063931506344</data>
+  <data key="d11">0.9562031965753173</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/A8.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D27.ogg">
+  <data key="d8">0.11082099225425968</data>
+  <data key="d9">True</data>
+  <data key="d10">0.8891790077457403</data>
+  <data key="d11">0.9445895038728702</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B10.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B14.ogg">
+  <data key="d8">0.052782375310507446</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9472176246894926</data>
+  <data key="d11">0.9736088123447463</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B10.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B16.ogg">
+  <data key="d8">0.05726969060843223</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9427303093915678</data>
+  <data key="d11">0.9713651546957839</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B10.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B9.ogg">
+  <data key="d8">0.0580079755344729</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9419920244655271</data>
+  <data key="d11">0.9709960122327636</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B10.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B11.ogg">
+  <data key="d8">0.09503981944076989</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9049601805592301</data>
+  <data key="d11">0.9524800902796151</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B10.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B13.ogg">
+  <data key="d8">0.0798379599460014</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9201620400539986</data>
+  <data key="d11">0.9600810200269994</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B10.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B15.ogg">
+  <data key="d8">0.06794853419658287</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9320514658034171</data>
+  <data key="d11">0.9660257329017086</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B11.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B9.ogg">
+  <data key="d8">0.08227449514185436</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9177255048581456</data>
+  <data key="d11">0.9588627524290728</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B12.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B9.ogg">
+  <data key="d8">0.0815489953832278</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9184510046167722</data>
+  <data key="d11">0.9592255023083861</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B12.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B13.ogg">
+  <data key="d8">0.09822266842326477</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9017773315767352</data>
+  <data key="d11">0.9508886657883676</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B12.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B16.ogg">
+  <data key="d8">0.09886593604786953</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9011340639521305</data>
+  <data key="d11">0.9505670319760653</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B13.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B9.ogg">
+  <data key="d8">0.0815424215708429</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9184575784291571</data>
+  <data key="d11">0.9592287892145785</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B13.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B14.ogg">
+  <data key="d8">0.08202979131481625</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9179702086851838</data>
+  <data key="d11">0.9589851043425919</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B14.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B15.ogg">
+  <data key="d8">0.07017724524689628</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9298227547531037</data>
+  <data key="d11">0.9649113773765519</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B14.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B16.ogg">
+  <data key="d8">0.07201561726931338</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9279843827306866</data>
+  <data key="d11">0.9639921913653433</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B15.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B16.ogg">
+  <data key="d8">0.05809948328370884</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9419005167162912</data>
+  <data key="d11">0.9709502583581455</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B16.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/B9.ogg">
+  <data key="d8">0.06569761667235952</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9343023833276405</data>
+  <data key="d11">0.9671511916638202</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C17.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C19.ogg">
+  <data key="d8">0.047833858681822106</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9521661413181779</data>
+  <data key="d11">0.976083070659089</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C17.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C20.ogg">
+  <data key="d8">0.05975875890057036</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9402412410994296</data>
+  <data key="d11">0.9701206205497148</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C17.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C22.ogg">
+  <data key="d8">0.06574439296911616</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9342556070308838</data>
+  <data key="d11">0.9671278035154419</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C17.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C18.ogg">
+  <data key="d8">0.07143611615333278</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9285638838466672</data>
+  <data key="d11">0.9642819419233336</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C17.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C24.ogg">
+  <data key="d8">0.07031339394778569</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9296866060522143</data>
+  <data key="d11">0.9648433030261072</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C17.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D27.ogg">
+  <data key="d8">0.0851376304787208</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9148623695212792</data>
+  <data key="d11">0.9574311847606396</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C18.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C22.ogg">
+  <data key="d8">0.0783494178474633</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9216505821525367</data>
+  <data key="d11">0.9608252910762684</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C18.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C19.ogg">
+  <data key="d8">0.07870805925819158</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9212919407418084</data>
+  <data key="d11">0.9606459703709043</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C19.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C20.ogg">
+  <data key="d8">0.051097344334571915</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9489026556654281</data>
+  <data key="d11">0.974451327832714</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C19.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C24.ogg">
+  <data key="d8">0.06658885637487888</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9334111436251211</data>
+  <data key="d11">0.9667055718125606</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C19.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C21.ogg">
+  <data key="d8">0.07385295998181518</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9261470400181848</data>
+  <data key="d11">0.9630735200090924</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C19.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C23.ogg">
+  <data key="d8">0.08813668484782633</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9118633151521737</data>
+  <data key="d11">0.9559316575760868</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C20.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C21.ogg">
+  <data key="d8">0.06489259659826752</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9351074034017325</data>
+  <data key="d11">0.9675537017008662</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C21.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C22.ogg">
+  <data key="d8">0.06753026248357163</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9324697375164284</data>
+  <data key="d11">0.9662348687582142</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C21.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C23.ogg">
+  <data key="d8">0.08406761714681266</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9159323828531873</data>
+  <data key="d11">0.9579661914265937</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C21.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_3.ogg">
+  <data key="d8">0.1714648615029576</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8285351384970424</data>
+  <data key="d11">0.9142675692485212</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C22.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C24.ogg">
+  <data key="d8">0.06808733235088438</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9319126676491156</data>
+  <data key="d11">0.9659563338245578</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C22.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/C23.ogg">
+  <data key="d8">0.07594289918153097</data>
+  <data key="d9">False</data>
+  <data key="d10">0.924057100818469</data>
+  <data key="d11">0.9620285504092345</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D25.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D28.ogg">
+  <data key="d8">0.07531463505737634</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9246853649426237</data>
+  <data key="d11">0.9623426824713118</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D25.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D31.ogg">
+  <data key="d8">0.09394035282828117</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9060596471717188</data>
+  <data key="d11">0.9530298235858594</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D25.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D29.ogg">
+  <data key="d8">0.09688686153690806</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9031131384630919</data>
+  <data key="d11">0.951556569231546</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D26.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D29.ogg">
+  <data key="d8">0.06649239960492781</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9335076003950722</data>
+  <data key="d11">0.9667538001975361</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D26.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D32.ogg">
+  <data key="d8">0.07137019126777222</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9286298087322278</data>
+  <data key="d11">0.9643149043661139</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D26.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D28.ogg">
+  <data key="d8">0.08547873347335389</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9145212665266461</data>
+  <data key="d11">0.9572606332633231</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D27.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D28.ogg">
+  <data key="d8">0.07155178300713516</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9284482169928648</data>
+  <data key="d11">0.9642241084964325</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D27.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D29.ogg">
+  <data key="d8">0.07433526103889121</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9256647389611088</data>
+  <data key="d11">0.9628323694805544</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D28.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D29.ogg">
+  <data key="d8">0.07289849866462317</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9271015013353768</data>
+  <data key="d11">0.9635507506676884</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D28.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D32.ogg">
+  <data key="d8">0.07500165457030028</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9249983454296997</data>
+  <data key="d11">0.9624991727148499</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D28.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D30.ogg">
+  <data key="d8">0.08942528316986842</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9105747168301316</data>
+  <data key="d11">0.9552873584150658</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D28.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D31.ogg">
+  <data key="d8">0.08519320880975034</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9148067911902497</data>
+  <data key="d11">0.9574033955951249</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D29.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D31.ogg">
+  <data key="d8">0.06050201520295606</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9394979847970439</data>
+  <data key="d11">0.969748992398522</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D29.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D32.ogg">
+  <data key="d8">0.06727311073298314</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9327268892670169</data>
+  <data key="d11">0.9663634446335084</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D29.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D30.ogg">
+  <data key="d8">0.08517771724512746</data>
+  <data key="d9">False</data>
+  <data key="d10">0.9148222827548725</data>
+  <data key="d11">0.9574111413774362</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D30.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D31.ogg">
+  <data key="d8">0.09000919739332502</data>
+  <data key="d9">False</data>
+  <data key="d10">0.909990802606675</data>
+  <data key="d11">0.9549954013033375</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D31.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/D32.ogg">
+  <data key="d8">0.08137124018228203</data>
+  <data key="d9">False</data>
+  <data key="d10">0.918628759817718</data>
+  <data key="d11">0.959314379908859</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_2.ogg">
+  <data key="d8">0.13293227589228407</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8670677241077159</data>
+  <data key="d11">0.933533862053858</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_4.ogg">
+  <data key="d8">0.14580908218028066</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8541909178197193</data>
+  <data key="d11">0.9270954589098597</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_3.ogg">
+  <data key="d8">0.19546980489322174</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8045301951067783</data>
+  <data key="d11">0.9022650975533891</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_4.ogg">
+  <data key="d8">0.10440567030043568</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8955943296995643</data>
+  <data key="d11">0.9477971648497822</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_3.ogg">
+  <data key="d8">0.14214151123104757</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8578584887689524</data>
+  <data key="d11">0.9289292443844762</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_1.ogg">
+  <data key="d8">0.2533317326729684</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7466682673270316</data>
+  <data key="d11">0.8733341336635159</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_3.ogg">
+  <data key="d8">0.17461847211225345</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8253815278877465</data>
+  <data key="d11">0.9126907639438733</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_3.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_4.ogg">
+  <data key="d8">0.1563610344878681</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8436389655121319</data>
+  <data key="d11">0.921819482756066</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_4.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_3.ogg">
+  <data key="d8">0.12246535727540875</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8775346427245913</data>
+  <data key="d11">0.9387673213622956</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_4.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_2.ogg">
+  <data key="d8">0.1611805231692338</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8388194768307662</data>
+  <data key="d11">0.9194097384153831</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/dekat/kalimat_4.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_4.ogg">
+  <data key="d8">0.20537373098713796</data>
+  <data key="d9">False</data>
+  <data key="d10">0.794626269012862</data>
+  <data key="d11">0.897313134506431</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_4.ogg">
+  <data key="d8">0.23560943845225457</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7643905615477454</data>
+  <data key="d11">0.8821952807738727</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_1.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_2.ogg">
+  <data key="d8">0.24569391187172107</data>
+  <data key="d9">False</data>
+  <data key="d10">0.7543060881282789</data>
+  <data key="d11">0.8771530440641395</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_3.ogg">
+  <data key="d8">0.16331459376582902</data>
+  <data key="d9">False</data>
+  <data key="d10">0.836685406234171</data>
+  <data key="d11">0.9183427031170854</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_2.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_4.ogg">
+  <data key="d8">0.1859826722929463</data>
+  <data key="d9">False</data>
+  <data key="d10">0.8140173277070537</data>
+  <data key="d11">0.9070086638535269</data>
+</edge>
+<edge source="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_3.ogg" target="/content/drive/MyDrive/Kecerdasan Artifisial/Iron/jauh/kalimat_4.ogg">
+  <data key="d8">0.20723562033089005</data>
+  <data key="d9">False</data>
+  <data key="d10">0.79276437966911</data>
+  <data key="d11">0.896382189834555</data>
+</edge>
+</graph></graphml>
