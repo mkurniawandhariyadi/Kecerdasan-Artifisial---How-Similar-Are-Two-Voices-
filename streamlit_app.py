@@ -522,7 +522,7 @@ with st.sidebar:
     st.space("small")
     METHOD=st.selectbox("Representasi suara",core.METHODS,index=2,format_func=METHOD_LABELS.get,key="active_method")
     st.caption(f"{len(MANIFEST)} rekaman · {len(SPEAKERS)} speaker")
-    st.caption("Aldi · Faqih · Ilman · Iron")
+    st.caption(" · ".join(SPEAKERS))
     st.badge("Model lokal · CPU",icon=":material/computer:",color="green")
     with st.expander("Tentang eksperimen"):
         st.caption("MFCC + cosine, ECAPA pretrained, dan ECAPA fine-tuned. Tidak ada training ulang pada dashboard ini. Seluruh hasil dibaca dari export Colab Anda.")

@@ -1,3 +1,3 @@
 graph,pair_type,source,target,reachable,node_count,hop_count,total_distance,cross_speaker_edges,mst_edges
-k-NN utama,Genuine,U01,U08,True,5,4,0.41966853112754665,0,0
-k-NN + MST (pembanding),Genuine,U01,U08,True,5,4,0.41966853112754665,0,0
+k-NN utama,Genuine,U01,U08,True,5,4,0.4513867737050187,0,0
+k-NN + MST (pembanding),Genuine,U01,U08,True,5,4,0.4513867737050187,0,0

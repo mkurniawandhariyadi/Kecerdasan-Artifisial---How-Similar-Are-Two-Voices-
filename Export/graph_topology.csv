@@ -1,3 +1,3 @@
 graph,nodes,edges,components,k,directed,density,is_complete_graph,mean_neighbor_purity,mst_edges
-k-NN utama,160,351,5,3,False,0.02759433962264151,False,1.0,0
-k-NN + MST (pembanding),160,358,1,3,False,0.028144654088050315,False,0.9926041666666666,7
+k-NN utama,160,352,5,3,False,0.027672955974842768,False,1.0,0
+k-NN + MST (pembanding),160,358,1,3,False,0.028144654088050315,False,0.9916071428571428,6

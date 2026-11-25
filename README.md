@@ -59,10 +59,24 @@ Kinerja realtime bergantung pada CPU dan koneksi host; ini demo empat speaker di
 
 ## Lokal
 
+Cara cepat di komputer ini (memilih Python environment demo secara otomatis):
+
+/tmp/voice-ml-venv/bin/python -m streamlit run streamlit_app.py --server.port 8502
+
+Jika port 8501 sudah dipakai dan ingin sesi cadangan:
+
+Environment /tmp yang sudah diuji memakai Python 3.10.12. Folder /tmp dapat hilang
+setelah restart/pembersihan. Untuk environment permanen dengan Python 3.12:
+
 ```bash
-python -m pip install -r requirements.txt
-python -m streamlit run streamlit_app.py
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+bash jalankan_lokal.sh
 ```
+
+Launcher mengutamakan .venv jika sudah berisi Streamlit, torch, dan torchaudio.
+Tidak perlu mengaktifkan environment atau memakai perintah streamlit global.
+Jika python3.12 belum tersedia, instal Python 3.12 beserta dukungan venv dahulu.
 
 Sudah diuji lokal dengan Python 3.10. Deployment Cloud Python 3.12 belum dijalankan
 pada saat paket disiapkan; jika gagal, lihat log build/runtime pada Manage app.

@@ -1,4 +1,4 @@
 Model,Threshold query-referensi,Validation F1 (trial query-referensi)
-MFCC + Cosine,0.3431406361433298,1.0
-ECAPA Pretrained,0.6467454851813832,1.0
-ECAPA Fine-Tuned,0.6167338670793778,1.0
+MFCC + Cosine,0.39363137579170937,1.0
+ECAPA Pretrained,0.7047946320346306,1.0
+ECAPA Fine-Tuned,0.6750249109784474,1.0
